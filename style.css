@@ -148,6 +148,30 @@ body {
     left:0;
     overflow: hidden;
     transition: 1s;
+    /* animation: loop 15s infinite; */
+}
+
+.slider:first-child{
+    animation: loop 20s infinite;
+}
+
+@keyframes loop {
+    3%,20%{
+        margin-left: -101.8%;
+    }
+    23%,40%{
+        margin-left:-203.5%;
+    }
+    43%,60%{
+        margin-left:-305.5%;;
+    }
+    63%,80%{
+        margin-left:-407.2%;
+    }
+    83%,100%{
+        margin-left:-508.5%;
+    }
+    
 }
 
 .slider img{
