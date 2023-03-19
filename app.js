@@ -47,7 +47,7 @@ function createSlide() {
     slide.className = "slider";
     slideDetails.className = "slide-details";
     title.className = "movie-title";
-    data.className = "movie-data";
+    data.className = "movie-data capitalize";
     period.className = "fa-solid fa-circle data-first";
     movieDetails.className = "movie-details";
 
@@ -66,8 +66,8 @@ function createSlide() {
         // };
 }
 
-//i<=length, one duplicate item needed to make smooth transition
-for (let i = 0; i <=movies.length ; i++) {
+//i<=length, two duplicate items needed to make smooth transition
+for (let i = 0; i<=movies.length+1 ; i++) {
     createSlide();
 };
 

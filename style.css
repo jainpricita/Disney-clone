@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+/* Commom Classes */
+.capitalize{
+    text-transform: capitalize;
+}
+
+.flex-box{
+    display: flex;
+}
+
 body {
     width: 100%;
     background-color: #0c111b;
@@ -13,34 +22,28 @@ body {
 
 .nav-bar {
     width: 100%;
-    height: 80px;
+    min-height: 72px;
     position: fixed;
     top: 0;
     left: 0;
     background-color: #0c111b;
     z-index: 10;
-    display: flex;
     align-items: center;
-    padding: 0 10px;
+    padding: 0 50px;
 }
 
 .brand-logo {
     height: 40px;
-
 }
 
 .nav-links {
     margin-top: 10px;
-    display: flex;
     list-style: none;
-
-
 }
 
 .nav-items a {
     text-decoration: none;
     margin-left: 22px;
-    text-transform: capitalize;
     color: white;
     opacity: 0.8;
 }
@@ -55,7 +58,6 @@ body {
 }
 
 .search-container {
-    display: block;
     margin-left: auto;
     display: flex;
     align-items: center;
@@ -73,9 +75,8 @@ body {
     color: white;
     height: 32px;
     width: 240px;
-    text-transform: capitalize;
     font-size: 16px;
-    font-weight: 500px;
+    font-weight: 700px;
     transition: .5s;
 }
 
@@ -121,16 +122,16 @@ body {
 }
 
 .carousel-container{
-    height: 450px;
+    height: 449px;
+    min-height: 400px;
     width: 100%;
     padding: 20px 0;
     overflow-x: hidden;
-    margin-top: 80px;
+    margin-top: 60px;
 
 }
 
 .carousel{
-    display: flex;
     width:92%;
     height: 100%;
     position: relative;
@@ -152,24 +153,24 @@ body {
 }
 
 .slider:first-child{
-    animation: loop 20s infinite;
+    animation: loop 25s infinite;
 }
 
 @keyframes loop {
     3%,20%{
-        margin-left: -101.8%;
+        margin-left: -101.2%;
     }
     23%,40%{
-        margin-left:-203.5%;
+        margin-left:-202%;
     }
     43%,60%{
-        margin-left:-305.5%;;
+        margin-left:-303.2%;
     }
     63%,80%{
-        margin-left:-407.2%;
+        margin-left:-404.1%;
     }
     83%,100%{
-        margin-left:-508.5%;
+        margin-left:-505.1%;
     }
     
 }
@@ -196,14 +197,12 @@ body {
 
 .movie-data{
     margin-top: 10px;
-    text-transform: capitalize;
     opacity: .8;
 }
 
 .data-first{
     font-size: 3px;
     vertical-align: middle;
-    color: aliceblue;
     padding: 6px;
 }
 
