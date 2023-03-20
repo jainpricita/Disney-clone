@@ -3,7 +3,7 @@
 
 
 ## Description
-A project to practice vanilla JavaScript and CSS by making a clone of popular OTT platform Disney+.
+A project to practice vanilla JavaScript and CSS by making a clone of popular OTT platform Disney+'s landing page.
 The carousels here are dynamic, I have created DOM element dynamically with Javascript and attached it to the carousel.
 
 ## Technologies Used
