@@ -122,7 +122,7 @@ body {
 }
 
 .carousel-container{
-    height: 449px;
+    height: 440px;
     min-height: 400px;
     width: 100%;
     padding: 20px 0;
@@ -214,6 +214,35 @@ body {
 }
 
 
+.channels{
+    margin: auto 48px;
+    height: 10vw;
+    justify-content:space-between;
+    gap:1%;
+    flex-wrap: wrap;
+}
+
+.channel-cards{
+    width:19%;
+    height: 100%;
+    border-radius:5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.channel-img, .channel-video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.channel-video{
+    position: absolute;
+}
+
+.channel-cards:hover .channel-img{
+    display: none;
+}
 
 
 

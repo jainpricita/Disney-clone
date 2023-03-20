@@ -72,6 +72,21 @@ for (let i = 0; i<=movies.length+1 ; i++) {
 };
 
 
+let channelCards=document.querySelectorAll('.channel-cards');
+console.log(channelCards);
+channelCards.forEach((item)=>{
+    item.addEventListener('mouseover',()=>{
+        let video=item.children[1];
+        video.play();
+    })
+    item.addEventListener('mouseleave',()=>{
+        let video=item.children[1];
+        video.pause();
+    })
+})
+
+
+
 
 
 
